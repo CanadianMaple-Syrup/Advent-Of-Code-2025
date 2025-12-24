@@ -25,7 +25,6 @@ export default function sumInvalidIDs(inputString) {
         sum += possible;
         addedPossible.push(possible);
         possibleStart = possible;
-        possibleMiddle = possible;
       }
     }
 
@@ -37,7 +36,6 @@ export default function sumInvalidIDs(inputString) {
         sum += possible;
         addedPossible.push(possible);
         possibleEnd = possible;
-        if (possibleStart == 0) {possibleMiddle = possibleEnd;}
       }
     }
 
